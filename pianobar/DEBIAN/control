@@ -1,0 +1,17 @@
+Package: pianobar
+Version: 0.4
+Section: sound
+Priority: optional
+Architecture: i386
+Depends: libfaad2-0, libcurl3, libao2, libmad0, libxml2
+Maintainer: Wendall Cada <wendallc@83864.com>
+Homepage: http://uint16.ath.cx/software/pandora_client.en.html
+Provides: pianobar
+Description: "pianobar" is a free/open-source, console-based replacement for pandora's flash player.
+ "pianobar" supports all important features pandora has:
+ * Create, delete, rename stations and add more music
+ * Rate and temporary ban tracks as well as move them to another station
+ * "Shared stations"
+ * last.fm scrobbling
+ * Proxy support for non-americans
+

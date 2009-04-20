@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+SYMLINKDIR=/usr/lib/
+
+cd $SYMLINKDIR || exit 1
+
+ln -sf libfaad.so.0.0.0 libfaad.so.1
+
+exit 0
