@@ -1,4 +1,5 @@
 1. emerge new ebuild as binary package using -B/-b
 2. untar package into directory named deb
-3. copy DEBIAN directory into deb
-4. dpkg -b ./deb packagename.deb
+3. bump version in DEBIAN/control
+4. copy DEBIAN directory into deb
+5. dpkg -b ./deb packagename.deb
