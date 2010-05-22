@@ -1,9 +1,9 @@
 Package: pianobar
-Version: 2010.4.1
+Version: 2010.5.1
 Section: sound
 Priority: optional
 Architecture: i386
-Depends: libfaad2-0, libao2, libmad0, libxml2
+Depends: libfaad2, libao2, libmad0, libxml2
 Maintainer: Wendall Cada <wendallc@83864.com>
 Homepage: http://uint16.ath.cx/software/pandora_client.en.html
 Provides: pianobar
