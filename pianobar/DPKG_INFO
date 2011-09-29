@@ -1,15 +1,9 @@
-# Gentoo
-1. emerge new ebuild as binary package using -B/-b
-2. untar package into directory named deb
-3. bump version in DEBIAN/control
-4. copy DEBIAN directory into deb
-5. dpkg -b ./deb packagename.deb
-
 # Ubuntu
-1. export CMAKE_PREFIX_PATH=/path/to/deb/
-2. bump verion in DEBIAN/control
-3. copy DEBIAN directory into deb
-4. create docs dir: deb/usr/share/doc/pianobar-version/
-5. gzip AUTHORS, COPYING and README into docs dir
-6. copy contrib into docs dir
-7. dpkg -b ./deb pianobar-version-i386.deb
+1. bump verion in DEBIAN/control
+2. copy DEBIAN directory into deb
+3. create docs dir: deb/usr/share/doc/pianobar-version/
+4. create binary dir deb/usr/bin/
+5. compile and copy pianobar executable into deb/usr/bin/
+6. gzip COPYING and README into docs dir
+7. copy contrib into docs dir
+8. dpkg -b ./deb pianobar-version-i386.deb
