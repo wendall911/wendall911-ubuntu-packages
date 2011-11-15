@@ -1,9 +1,10 @@
 # Ubuntu
-1. bump verion in DEBIAN/control
-2. copy DEBIAN directory into deb
-3. create docs dir: deb/usr/share/doc/pianobar-version/
-4. create binary dir deb/usr/bin/
-5. compile and copy pianobar executable into deb/usr/bin/
-6. gzip COPYING and README into docs dir
-7. copy contrib into docs dir
-8. dpkg -b ./deb pianobar-version-i386.deb
+1. mkdir deb
+2. bump verion in DEBIAN/control
+3. copy DEBIAN directory into deb
+4. create docs dir: deb/usr/share/doc/pianobar-version/
+5. create binary dir deb/usr/bin/
+6. compile and copy pianobar executable into deb/usr/bin/
+7. gzip COPYING and README into docs dir
+8. copy contrib into docs dir
+9. dpkg -b ./deb pianobar-version-i386.deb
